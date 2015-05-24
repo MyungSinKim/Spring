@@ -28,6 +28,9 @@ repositories {
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
+    compile("org.webjars:jquery:2.0.3-1")
+    compile("org.thymeleaf:thymeleaf-spring3:2.0.17")
+    testCompile("junit:junit:4.11")
     //Required dependency for JSP
     providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
 }
